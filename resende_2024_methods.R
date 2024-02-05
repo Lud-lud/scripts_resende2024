@@ -246,5 +246,5 @@ results[3, c(3:5)] <- calc_contrib_perc(QPT, c(results[1,3],
 
 write.csv(results, file="pollin_contrib_05-02-24.csv")
 
-### End.
+###
 
