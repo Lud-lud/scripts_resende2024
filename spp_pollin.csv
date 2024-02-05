@@ -1,0 +1,169 @@
+spp_name,class_name,class_num,suitability
+Apis mellifera,Forest formation,3,0.93
+Apis mellifera,Savanna formation,4,1
+Apis mellifera,Grassland formation,12,0.53
+Apis mellifera,Pasture,15,0.33
+Apis mellifera,Forest plantation,9,0.87
+Apis mellifera,Urban area,24,0.77
+Apis mellifera,Agriculture,18,0.4
+Apis mellifera,Rocky outcrop,29,0.47
+Centris nitens,Forest formation,3,0.67
+Centris nitens,Savanna formation,4,0.87
+Centris nitens,Grassland formation,12,0.93
+Centris nitens,Pasture,15,0.4
+Centris nitens,Forest plantation,9,0.2
+Centris nitens,Urban area,24,0.53
+Centris nitens,Agriculture,18,0.33
+Centris nitens,Rocky outcrop,29,0.73
+Centris fuscata,Forest formation,3,0.73
+Centris fuscata,Savanna formation,4,0.93
+Centris fuscata,Grassland formation,12,1
+Centris fuscata,Pasture,15,0.47
+Centris fuscata,Forest plantation,9,0.2
+Centris fuscata,Urban area,24,0.2
+Centris fuscata,Agriculture,18,0.27
+Centris fuscata,Rocky outcrop,29,0.73
+Exomalopsis analis,Forest formation,3,0.8
+Exomalopsis analis,Savanna formation,4,0.93
+Exomalopsis analis,Grassland formation,12,1
+Exomalopsis analis,Pasture,15,0.6
+Exomalopsis analis,Forest plantation,9,0.27
+Exomalopsis analis,Urban area,24,0.47
+Exomalopsis analis,Agriculture,18,0.47
+Exomalopsis analis,Rocky outcrop,29,0.8
+Exomalopsis auropilosa,Forest formation,3,0.83
+Exomalopsis auropilosa,Savanna formation,4,0.93
+Exomalopsis auropilosa,Grassland formation,12,1
+Exomalopsis auropilosa,Pasture,15,0.6
+Exomalopsis auropilosa,Forest plantation,9,0.27
+Exomalopsis auropilosa,Urban area,24,0.47
+Exomalopsis auropilosa,Agriculture,18,0.47
+Exomalopsis auropilosa,Rocky outcrop,29,0.8
+Frieseomelita doederleini,Forest formation,3,1
+Frieseomelita doederleini,Savanna formation,4,0.93
+Frieseomelita doederleini,Grassland formation,12,0.4
+Frieseomelita doederleini,Pasture,15,0.2
+Frieseomelita doederleini,Forest plantation,9,0.67
+Frieseomelita doederleini,Urban area,24,0.5
+Frieseomelita doederleini,Agriculture,18,0.33
+Frieseomelita doederleini,Rocky outcrop,29,0.53
+Frieseomelitta languida,Forest formation,3,1
+Frieseomelitta languida,Savanna formation,4,0.93
+Frieseomelitta languida,Grassland formation,12,0.4
+Frieseomelitta languida,Pasture,15,0.2
+Frieseomelitta languida,Forest plantation,9,0.6
+Frieseomelitta languida,Urban area,24,0.63
+Frieseomelitta languida,Agriculture,18,0.27
+Frieseomelitta languida,Rocky outcrop,29,0.53
+Frieseomelitta varia,Forest formation,3,1
+Frieseomelitta varia,Savanna formation,4,0.93
+Frieseomelitta varia,Grassland formation,12,0.4
+Frieseomelitta varia,Pasture,15,0.2
+Frieseomelitta varia,Forest plantation,9,0.67
+Frieseomelitta varia,Urban area,24,0.57
+Frieseomelitta varia,Agriculture,18,0.27
+Frieseomelitta varia,Rocky outcrop,29,0.53
+Geotrigona mombuca,Forest formation,3,0.73
+Geotrigona mombuca,Savanna formation,4,0.93
+Geotrigona mombuca,Grassland formation,12,1
+Geotrigona mombuca,Pasture,15,0.67
+Geotrigona mombuca,Forest plantation,9,0.33
+Geotrigona mombuca,Urban area,24,0.6
+Geotrigona mombuca,Agriculture,18,0.47
+Geotrigona mombuca,Rocky outcrop,29,0.73
+Melipona quadrifasciata,Forest formation,3,1
+Melipona quadrifasciata,Savanna formation,4,1
+Melipona quadrifasciata,Grassland formation,12,0.47
+Melipona quadrifasciata,Pasture,15,0.13
+Melipona quadrifasciata,Forest plantation,9,0.73
+Melipona quadrifasciata,Urban area,24,0.63
+Melipona quadrifasciata,Agriculture,18,0.2
+Melipona quadrifasciata,Rocky outcrop,29,0.33
+Oxytrigona tataira,Forest formation,3,1
+Oxytrigona tataira,Savanna formation,4,0.93
+Oxytrigona tataira,Grassland formation,12,0.47
+Oxytrigona tataira,Pasture,15,0.2
+Oxytrigona tataira,Forest plantation,9,0.6
+Oxytrigona tataira,Urban area,24,0.47
+Oxytrigona tataira,Agriculture,18,0.27
+Oxytrigona tataira,Rocky outcrop,29,0.47
+Paratrigona lineata,Forest formation,3,0.73
+Paratrigona lineata,Savanna formation,4,0.93
+Paratrigona lineata,Grassland formation,12,1
+Paratrigona lineata,Pasture,15,0.53
+Paratrigona lineata,Forest plantation,9,0.33
+Paratrigona lineata,Urban area,24,0.6
+Paratrigona lineata,Agriculture,18,0.4
+Paratrigona lineata,Rocky outcrop,29,0.67
+Plebeia droryana,Forest formation,3,0.93
+Plebeia droryana,Savanna formation,4,1
+Plebeia droryana,Grassland formation,12,0.47
+Plebeia droryana,Pasture,15,0.2
+Plebeia droryana,Forest plantation,9,0.73
+Plebeia droryana,Urban area,24,0.6
+Plebeia droryana,Agriculture,18,0.33
+Plebeia droryana,Rocky outcrop,29,0.47
+Plebeia wittmanni,Forest formation,3,0.6
+Plebeia wittmanni,Savanna formation,4,0.8
+Plebeia wittmanni,Grassland formation,12,0.8
+Plebeia wittmanni,Pasture,15,0.33
+Plebeia wittmanni,Forest plantation,9,0.27
+Plebeia wittmanni,Urban area,24,0.53
+Plebeia wittmanni,Agriculture,18,0.33
+Plebeia wittmanni,Rocky outcrop,29,0.8
+Tetragona clavipes,Forest formation,3,1
+Tetragona clavipes,Savanna formation,4,1
+Tetragona clavipes,Grassland formation,12,0.47
+Tetragona clavipes,Pasture,15,0.2
+Tetragona clavipes,Forest plantation,9,0.67
+Tetragona clavipes,Urban area,24,0.5
+Tetragona clavipes,Agriculture,18,0.27
+Tetragona clavipes,Rocky outcrop,29,0.47
+Tetragonisca angustula,Forest formation,3,0.93
+Tetragonisca angustula,Savanna formation,4,1
+Tetragonisca angustula,Grassland formation,12,0.67
+Tetragonisca angustula,Pasture,15,0.27
+Tetragonisca angustula,Forest plantation,9,0.73
+Tetragonisca angustula,Urban area,24,0.8
+Tetragonisca angustula,Agriculture,18,0.47
+Tetragonisca angustula,Rocky outcrop,29,0.53
+Trigona hyalinata,Forest formation,3,1
+Trigona hyalinata,Savanna formation,4,1
+Trigona hyalinata,Grassland formation,12,0.53
+Trigona hyalinata,Pasture,15,0.13
+Trigona hyalinata,Forest plantation,9,0.6
+Trigona hyalinata,Urban area,24,0.63
+Trigona hyalinata,Agriculture,18,0.27
+Trigona hyalinata,Rocky outcrop,29,0.8
+Trigona recursa,Forest formation,3,0.73
+Trigona recursa,Savanna formation,4,0.93
+Trigona recursa,Grassland formation,12,1
+Trigona recursa,Pasture,15,0.47
+Trigona recursa,Forest plantation,9,0.2
+Trigona recursa,Urban area,24,0.4
+Trigona recursa,Agriculture,18,0.33
+Trigona recursa,Rocky outcrop,29,0.67
+Trigona spinipes,Forest formation,3,1
+Trigona spinipes,Savanna formation,4,1
+Trigona spinipes,Grassland formation,12,0.47
+Trigona spinipes,Pasture,15,0.13
+Trigona spinipes,Forest plantation,9,0.87
+Trigona spinipes,Urban area,24,0.73
+Trigona spinipes,Agriculture,18,0.4
+Trigona spinipes,Rocky outcrop,29,0.4
+Xylocopa grisescens,Forest formation,3,1
+Xylocopa grisescens,Savanna formation,4,1
+Xylocopa grisescens,Grassland formation,12,0.47
+Xylocopa grisescens,Pasture,15,0.2
+Xylocopa grisescens,Forest plantation,9,0.67
+Xylocopa grisescens,Urban area,24,0.7
+Xylocopa grisescens,Agriculture,18,0.33
+Xylocopa grisescens,Rocky outcrop,29,0.4
+Xylocopa suspecta,Forest formation,3,1
+Xylocopa suspecta,Savanna formation,4,1
+Xylocopa suspecta,Grassland formation,12,0.47
+Xylocopa suspecta,Pasture,15,0.2
+Xylocopa suspecta,Forest plantation,9,0.67
+Xylocopa suspecta,Urban area,24,0.57
+Xylocopa suspecta,Agriculture,18,0.27
+Xylocopa suspecta,Rocky outcrop,29,0.4
