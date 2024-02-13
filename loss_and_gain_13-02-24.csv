@@ -1,0 +1,7 @@
+"","Cenary","Parameter","Total_values_PDmin_0.06","Total_values_PDavg_0.19","Total_values_PD_max_0.31"
+"1","Without","Quant. prod.",26605298.2470557,24020040.466357,22042879.8573019
+"2","Without","Prod. value",30201327.9858347,27266641.1637672,25022243.2442154
+"3","Maximum","Quant. prod.",28303508.7734635,29654370.9461198,31946202.6917419
+"4","Maximum","Prod. value",32129072.3253561,33662519.9552682,36264120.6437905
+"5","Loss without pollin. (%)","Quant. and Prod. value",-4.97,-14.2,-21.26
+"6","Maximum gain (%)","Quant. and Prod. value",1.09999999999999,5.92,14.11

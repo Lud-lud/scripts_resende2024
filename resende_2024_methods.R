@@ -202,17 +202,17 @@ QPT = 27996 * 1000 # total quantity produced (kg) in 2022
 VPT = 31780 * 1000 # total production value (reais) in 2022
 
 #set the dependence rates
-TDmin=0.06
-TDavg=0.19
-TDmax=0.31
+PDmin=0.06
+PDavg=0.19
+PDmax=0.31
 
 # prepare table to save results
 results <- data.frame(
   Parameters = numeric(3),
   Total_production = numeric(3),
-  TDmin_0.06 = numeric(3),
-  TDavg_0.19 = numeric(3),
-  TD_max_0.31 = numeric(3)
+  Pollin_contr_PDmin_0.06 = numeric(3),
+  Pollin_contr_PDavg_0.19 = numeric(3),
+  Pollin_contr_PD_max_0.31 = numeric(3)
 )
 results[c(1:3),1] <- c("Quant. prod. (kg)",
                           "Prod. value (reais)",
@@ -221,8 +221,8 @@ results[c(1,2),2] <- c(QPT, VPT)
 results[3,2] <- "-"
 
 # set the function to calculate pollinator contribution
-calc_contrib <- function (parameter, TD) {
-  V <-  parameter/ (nrow(densities)+TD*sum(densities$dens_fraction))
+calc_contrib <- function (parameter, PD) {
+  V <-  parameter/ (nrow(densities)+PD*sum(densities$dens_fraction))
   without_pollin <- V * (nrow(densities))
   pollin_contrib <- parameter - without_pollin
   return(pollin_contrib)
@@ -231,8 +231,8 @@ calc_contrib <- function (parameter, TD) {
 # calculate the pollinator contribution to crop production
 
 # 1. absolute values
-results[1,c(3:5)] <- calc_contrib(QPT, c(TDmin, TDavg, TDmax))
-results[2,c(3:5)] <- calc_contrib(VPT, c(TDmin, TDavg, TDmax))
+results[1,c(3:5)] <- calc_contrib(QPT, c(PDmin, PDavg, PDmax))
+results[2,c(3:5)] <- calc_contrib(VPT, c(PDmin, PDavg, PDmax))
 
 # 2. percentage values
 calc_contrib_perc <- function(parameter, contrib) {
@@ -244,7 +244,51 @@ results[3, c(3:5)] <- calc_contrib_perc(QPT, c(results[1,3],
                                                      results[1,4],
                                                      results[1,5]))
 
-write.csv(results, file="pollin_contrib_05-02-24.csv")
+write.csv(results, file="pollin_contrib_13-02-24.csv")
+
+
+# estimate the gain in production in case of maximum level of pollination
+# and loss in the absence of pollination
+
+# function to calculate the production without pollinator
+Prod_without_pollin <- function (parameter, PD){
+  V <-  parameter/ (nrow(densities)+PD*sum(densities$dens_fraction))
+  resu <- V * nrow(densities)
+  return(resu)
+}
+
+# create data.frame to store the results
+results2 <- data.frame(
+  Cenary = rep(c("Without", "Maximum"), each = 2),
+  Parameter = rep(c("Quant. prod.", "Prod. value"), times = 2),
+  Total_values_PDmin_0.06 = numeric(4),
+  Total_values_PDavg_0.19 = numeric(4),
+  Total_values_PD_max_0.31 = numeric(4),
+  stringsAsFactors = FALSE
+)
+
+# calculate
+results2[1,c(3:5)] <- Prod_without_pollin(QPT, c(PDmin, PDavg, PDmax))
+results2[2,c(3:5)] <- Prod_without_pollin(VPT, c(PDmin, PDavg, PDmax))
+
+
+# calculate the production with maximum level of pollination
+
+# obtain the complement of dependency rates on pollinators
+complement <- 1 - c(PDmin, PDavg, PDmax)
+
+results2[3, c(3:5)] <- results2[1,c(3:5)] / complement
+results2[4, c(3:5)] <- results2[2,c(3:5)] / complement
+
+# add information about gains and losses in percentage values
+
+diff_without_pollin <- round((results2[1,c(3:5)]*100/QPT),2) - 100
+diff_max_pollin <- round((results2[3, c(3:5)]*100/QPT),2) - 100
+
+results2[5,c(1:5)] <- c("Loss without pollin. (%)", "Quant. and Prod. value", diff_without_pollin)
+results2[6,c(1:5)] <- c("Maximum gain (%)", "Quant. and Prod. value", diff_max_pollin)
+
+write.csv(results2, file="loss_and_gain_13-02-24.csv")
 
 ###
 
